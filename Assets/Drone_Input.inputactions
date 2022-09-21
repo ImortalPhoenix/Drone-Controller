@@ -1,0 +1,55 @@
+{
+    "name": "Drone_Input",
+    "maps": [
+        {
+            "name": "Drone",
+            "id": "9ecac544-6486-4b79-8934-9e477a2a2e78",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2c078a3e-bb6a-4965-a235-7a5b0b87e15a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "AD",
+                    "id": "f89ac7b6-2b03-465b-bdec-0c1825712850",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "9d5c8fc5-365f-4879-8915-8e7fba15d8a7",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "c0b148a8-3f80-485e-8143-109311b1dc52",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
