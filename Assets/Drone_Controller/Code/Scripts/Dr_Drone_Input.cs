@@ -18,6 +18,7 @@ namespace Dragneel
         public float Throttle { get => throttle; }
 
         #endregion
+
         #region Main methods
         void Update()
         {
@@ -40,8 +41,6 @@ namespace Dragneel
         {
             throttle = value.Get<float>();
         }
-
-
         #endregion  
     }
 
